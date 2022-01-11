@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="index.css">
   </head>
   <body>
-    <header>
+    <header id="index-head">
       <h1><a href="index.html">Autumn Ryan</a></h1>
     </header>
     <nav>
@@ -16,6 +16,8 @@
     </nav>
   </body>
   <script>
-
+    var headerCard = document.getElementById("index-head");
+    headerCard.style.height = window.innerHeight + "px";
+    headerCard.style.width = window.innerWidth + "px";
   </script>
 </html>

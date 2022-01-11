@@ -1,3 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+body {
+  font-family: 'Lato', 'sans-serif';
+  padding: 0px;
+  margin: 0px;
+  font-weight: 300;
+  overflow-x: hidden;
+}
+
 header {
-  
+  background-color: teal;
+  text-align: center;
+  font-weight: 400;
+  overflow: hidden;
+}
+
+header h1 {
+  display: block;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+header a {
+  margin: 0px;
+  text-decoration: none;
+  color: white;
+  background-color: teal;
+}
+
+nav {
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: teal;
 }
